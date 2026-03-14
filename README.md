@@ -1,6 +1,6 @@
 ---
 title: "Satellite Image Preprocessing Pipeline for Computer Vision"
-author: "Peace Chinemere Ebika"
+name: "Peace Chinemere Ebika"
 output: github_document
 ---
 
