@@ -113,7 +113,7 @@ These libraries were used for raster processing, visualization, and dataset gene
 # Repository Structure
 
 The project is organized as follows:
-```
+```text
 satellite-image-preprocessing
 │
 ├── README.md
