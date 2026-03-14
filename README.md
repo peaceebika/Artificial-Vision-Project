@@ -139,7 +139,7 @@ satellite-image-preprocessing
 │
 ├── data
 │   └── tiles
-│
+│   ├── raw
 ├── code
 │   └── satellite_pipeline.ipynb
 │
