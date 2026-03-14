@@ -1,7 +1,7 @@
 ---
 title: "Satellite Image Preprocessing Pipeline for Computer Vision"
 name: "Peace Chinemere Ebika"
-output: github_document
+course: Computer Vision
 ---
 
 # Satellite Image Preprocessing Pipeline
