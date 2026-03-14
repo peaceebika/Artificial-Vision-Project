@@ -113,3 +113,60 @@ These libraries were used for raster processing, visualization, and dataset gene
 # Repository Structure
 
 The project is organized as follows:
+
+
+---
+
+# Preliminary Results
+
+The preprocessing pipeline successfully generated a dataset of image tiles derived from the Sentinel-2 satellite scene. Each tile represents a smaller spatial portion of the original satellite image and can serve as an input sample for machine learning algorithms.
+
+To verify the quality of the dataset, several randomly selected tiles were visualized. These samples confirm that the tiling process correctly preserved the spatial patterns present in the original satellite imagery.
+
+The generated dataset is suitable for future tasks such as:
+
+- Land cover classification  
+- Environmental monitoring  
+- Water resource detection  
+- Agricultural pattern analysis  
+- Urban development detection  
+
+---
+
+# Future Work
+
+Future work will focus on applying machine learning algorithms to the generated dataset. Potential next steps include:
+
+- Training Convolutional Neural Networks (CNNs) for image classification  
+- Applying classical machine learning models such as Random Forest or Support Vector Machines  
+- Detecting vegetation using spectral indices such as NDVI  
+- Performing land cover segmentation  
+- Developing predictive models for environmental monitoring
+
+---
+
+# Code and Material Attribution
+
+Satellite data used in this project originates from:
+
+Sentinel-2 Mission  
+European Space Agency (ESA)
+
+Accessed via:
+
+Google Earth Engine  
+https://earthengine.google.com/
+
+The Python libraries used in this repository are open-source and widely used in the scientific computing community.
+
+---
+
+# AI Tool Declaration
+
+Portions of the code structure, workflow explanations, and documentation were developed with the assistance of an AI language model (ChatGPT by OpenAI). The AI tool was used as a programming assistant to support code explanation, formatting, and documentation preparation. All implementation steps were executed and verified by the project author.
+
+---
+
+# Conclusion
+
+This project successfully demonstrates the initial stage of a satellite image computer vision pipeline. By integrating remote sensing data acquisition with Python-based image processing, the project converts large satellite images into a structured dataset of smaller samples suitable for machine learning applications. The results provide a strong foundation for future work involving automated analysis of satellite imagery using artificial intelligence techniques.
