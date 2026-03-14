@@ -55,7 +55,8 @@ The Earth Engine script used to filter, visualize, and export the satellite imag
 **Google Earth Engine Script**
 
 <a href="https://code.earthengine.google.com/ed452eed789f12fa058f102ea639b09e?noload=1" target="_blank">
-View the Earth Engine Code</a>
+View the Earth Engine Code
+</a>
 
 This script performs the following operations:
 
