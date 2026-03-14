@@ -201,7 +201,7 @@ The Python libraries used in this repository are open-source and widely used in 
 
 # AI Tool Declaration
 
-Portions of the code structure, workflow explanations, and documentation were developed with the assistance of an AI language model (ChatGPT by OpenAI). The AI tool was used as a programming assistant to support code explanation, formatting, and documentation preparation. All implementation steps were executed and verified by the project author.
+ChatGPT (OpenAI) was used as a programming assistant to help explain certain code segments and correct minor syntax or documentation issues. All data processing steps, implementation, and verification of results were completed by the project author.
 
 ---
 
