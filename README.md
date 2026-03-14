@@ -46,6 +46,24 @@ These results demonstrate that the preprocessing pipeline successfully converts 
 
 # Methodology and Pipeline
 
+## Satellite Data Acquisition
+
+Satellite imagery used in this project was obtained using **Google Earth Engine**, a cloud-based platform for planetary-scale geospatial analysis. The dataset used in this activity is derived from **Sentinel-2 satellite imagery provided by the European Space Agency (ESA)**.
+
+The Earth Engine script used to filter, visualize, and export the satellite imagery can be accessed at the following link:
+
+**Google Earth Engine Script**
+
+[View the Earth Engine Code](https://code.earthengine.google.com/ed452eed789f12fa058f102ea639b09e?noload=1)
+
+This script performs the following operations:
+
+- Defines the geographic region of interest  
+- Filters Sentinel-2 imagery by date and cloud coverage  
+- Selects the RGB spectral bands (B4, B3, B2)  
+- Generates a median composite image  
+- Exports the processed satellite scene as a GeoTIFF file for further processing in Python
+
 The processing pipeline implemented in this project follows the workflow below:
 
 Satellite Data Acquisition (Google Earth Engine)
