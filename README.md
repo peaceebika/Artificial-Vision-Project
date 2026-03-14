@@ -22,7 +22,7 @@ The goal of this activity is therefore to build a preprocessing pipeline that ac
 
 # Solution Overview
 
-The proposed solution implements a complete preprocessing workflow that converts large Sentinel-2 satellite images into a structured dataset of smaller image tiles. Satellite data is first acquired using Google Earth Engine and exported as a GeoTIFF file. The raster image is then loaded into Python where the RGB spectral bands are visualized and processed. Finally, the large image is divided into multiple fixed-size tiles (256 × 256 pixels) which can be used as input samples for machine learning models.
+The solution implements a preprocessing pipeline that acquires Sentinel-2 satellite imagery using Google Earth Engine and exports the scene as a GeoTIFF file. The image is then processed in Python where RGB bands are visualized and the large raster image is split into 256×256 tiles to generate a dataset suitable for machine learning.
 
 ---
 
