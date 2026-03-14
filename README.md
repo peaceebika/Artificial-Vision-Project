@@ -138,8 +138,9 @@ satellite-image-preprocessing
 ├── requirements.txt
 │
 ├── data
-│   └── tiles
-│   ├── raw
+│   ├──raw
+│   ├── titles
+│
 ├── code
 │   └── satellite_pipeline.ipynb
 │
