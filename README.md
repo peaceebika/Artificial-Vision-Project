@@ -148,6 +148,8 @@ satellite-image-preprocessing
 │   ├── sentinel2_export.js
 │   ├── visualize_tiles.py
 │
+├── presentation
+│   └── Detecting-and-Modeling-Spatio-Temporal-Environmental-Stress-Patterns
 └── results
     └── tile_preview.png
 ```
