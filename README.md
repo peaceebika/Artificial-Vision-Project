@@ -1,3 +1,6 @@
+### Google Earth Engine Script
+
+🔗 [Open the Earth Engine Code](https://code.earthengine.google.com/ed452eed789f12fa058f102ea639b09e?noload=1)
 ---
 title: "Satellite Image Preprocessing Pipeline for Computer Vision"
 author: "Peace Chinemere Ebika"
