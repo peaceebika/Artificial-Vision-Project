@@ -114,6 +114,24 @@ These libraries were used for raster processing, visualization, and dataset gene
 
 The project is organized as follows:
 
+satellite-image-preprocessing
+│
+├── README.md
+├── requirements.txt
+│
+├── data
+│   └── tiles
+│
+├── notebooks
+│   └── satellite_pipeline.ipynb
+│
+├── scripts
+│   ├── split_tiles.py
+│   ├── visualize_tiles.py
+│
+└── results
+    └── tile_preview.png
+
 
 ---
 
