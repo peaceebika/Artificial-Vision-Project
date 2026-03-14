@@ -170,3 +170,30 @@ Portions of the code structure, workflow explanations, and documentation were de
 # Conclusion
 
 This project successfully demonstrates the initial stage of a satellite image computer vision pipeline. By integrating remote sensing data acquisition with Python-based image processing, the project converts large satellite images into a structured dataset of smaller samples suitable for machine learning applications. The results provide a strong foundation for future work involving automated analysis of satellite imagery using artificial intelligence techniques.
+
+# References
+
+European Space Agency. (2023). *Sentinel-2 User Handbook*.  
+https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi
+
+Google Earth Engine Team. (2023). *Google Earth Engine: Planetary-scale geospatial analysis platform*.  
+https://earthengine.google.com/
+
+Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., & Moore, R. (2017).  
+Google Earth Engine: Planetary-scale geospatial analysis for everyone.  
+*Remote Sensing of Environment*, 202, 18–27.  
+https://doi.org/10.1016/j.rse.2017.06.031
+
+Rasterio Developers. (2023). *Rasterio: Access to geospatial raster data*.  
+https://rasterio.readthedocs.io/
+
+Hunter, J. D. (2007).  
+Matplotlib: A 2D graphics environment.  
+*Computing in Science & Engineering*, 9(3), 90–95.  
+https://doi.org/10.1109/MCSE.2007.55
+
+NumPy Developers. (2023). *NumPy: The fundamental package for scientific computing in Python*.  
+https://numpy.org/
+
+Python Software Foundation. (2023). *Python Language Reference*.  
+https://www.python.org/
