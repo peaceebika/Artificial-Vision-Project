@@ -140,11 +140,11 @@ satellite-image-preprocessing
 ├── data
 │   └── tiles
 │
-├── notebooks
+├── code
 │   └── satellite_pipeline.ipynb
 │
-├── scripts
-│   ├── split_tiles.py
+├── scripts.js
+│   ├── sentinel2_export.js
 │   ├── visualize_tiles.py
 │
 └── results
