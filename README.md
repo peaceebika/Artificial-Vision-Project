@@ -162,7 +162,12 @@ satellite-image-preprocessing
 ├── presentation
 │   └── Detecting-and-Modeling-Spatio-Temporal-Environmental-Stress-Patterns
 └── results
-    └── tile_preview.png
+│   ├──tile_preview.png
+│   ├──sentinel_RGB
+│   ├── confusion matrix
+│   ├── prediction_true
+│   └──training accuracy
+    
 ```
 
 
