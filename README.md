@@ -67,30 +67,32 @@ This script performs the following operations:
 The processing pipeline implemented in this project follows the workflow below:
 
 Satellite Data Acquisition (Google Earth Engine)
-
 ↓
-
 Export Satellite Scene as GeoTIFF
-
 ↓
-
 Load Raster Image in Python
-
 ↓
-
 Extract RGB Spectral Bands
-
 ↓
-
 Visualize Satellite Image
-
 ↓
-
-Split Image into Fixed-Size Tiles
-
+Generate Image Tiles (256 × 256)
 ↓
-
-Generate Dataset for Machine Learning
+Inspect and Preview Tiles
+↓
+Manual Labeling of Dataset
+↓
+Train Random Forest Classifier (Baseline Model)
+↓
+Evaluate Model Performance (Accuracy + Confusion Matrix)
+↓
+Visualize Prediction Results
+↓
+Train CNN Model
+↓
+Evaluate CNN Performance
+↓
+Compare Models
 
 ---
 
