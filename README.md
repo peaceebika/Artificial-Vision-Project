@@ -30,17 +30,20 @@ The solution implements a preprocessing pipeline that acquires Sentinel-2 satell
 
 This activity establishes the foundational stage of a computer vision pipeline for satellite imagery analysis. The following progress has been achieved:
 
-- Acquisition of Sentinel-2 satellite imagery using Google Earth Engine  
-- Export of satellite imagery as GeoTIFF raster data  
-- Loading and processing of satellite imagery using Python  
-- Visualization of RGB spectral bands from the raster data  
-- Automated generation of image tiles from the satellite scene  
-- Creation of a dataset consisting of thousands of image samples suitable for training computer vision models  
-- Visualization of randomly selected tiles to verify dataset quality
+- Acquisition of Sentinel-2 satellite imagery using Google Earth Engine
+- Export of the satellite scene as GeoTIFF raster data
+- Loading and processing of the satellite image using Python
+- Extraction and visualization of RGB spectral bands
+- Automated generation of image tiles from the satellite scene
+- Creation of a structured dataset suitable for machine learning
+- Manual labeling of satellite image tiles into vegetation and non-vegetation classes
+- Training of a Random Forest classifier as a baseline machine learning model
+- Training of a Convolutional Neural Network (CNN) for image classification
+- Evaluation of model performance using prediction visualization and a confusion matrix
 
 A total of **2809 image tiles** were generated from the original satellite image, each with a spatial size of **256 × 256 pixels**.
 
-These results demonstrate that the preprocessing pipeline successfully converts raw satellite data into a structured dataset that can later be used for training machine learning models.
+These results demonstrate that the preprocessing pipeline successfully converts raw satellite imagery into a structured dataset that can be used for training computer vision models for land cover classification.
 
 ---
 
