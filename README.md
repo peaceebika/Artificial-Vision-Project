@@ -118,13 +118,20 @@ Google Colab
 
 ## Python Libraries
 
-- NumPy  
-- Matplotlib  
-- Pillow (PIL)  
-- Rasterio  
-- OS / File utilities  
+## Libraries Used
 
-These libraries were used for raster processing, visualization, and dataset generation.
+The following Python libraries were used in the implementation of the computer vision pipeline:
+
+- **os** – used for file and directory management.
+- **numpy** – used for numerical computations and array manipulation.
+- **opencv-python (cv2)** – used for image reading, resizing, and preprocessing.
+- **matplotlib** – used for visualization of images, predictions, and training curves.
+- **scikit-learn** – used for machine learning models including Random Forest and model evaluation metrics.
+- **tensorflow / keras** – used for implementing and training the Convolutional Neural Network (CNN).
+- **google.colab** – used for integrating Google Drive storage and executing the notebook environment.
+
+These libraries  were used for data preprocessing, model training, visualization, and evaluation throughout the computer vision workflow.
+ 
 
 ---
 
