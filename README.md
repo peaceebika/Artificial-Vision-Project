@@ -192,7 +192,7 @@ The generated dataset is suitable for future computer vision and machine learnin
 
 # Future Work
 
-Future work will focus on applying machine learning algorithms to the generated dataset. Potential next steps include:
+Future work will focus on applying advanced machine learning and deep learning techniques to the generated satellite image tile dataset. Potential next steps include:
 
 - Training Convolutional Neural Networks (CNNs) for image classification  
 - Applying classical machine learning models such as Random Forest or Support Vector Machines  
@@ -204,11 +204,12 @@ Future work will focus on applying machine learning algorithms to the generated 
 
 # Code and Material Attribution
 
-- **code/** contains the main Google Colab pipeline used for preprocessing, training, and evaluation.
-- **data/raw/** contains the exported GeoTIFF satellite image.
-- **data/tiles/** contains the generated image tiles extracted from the satellite image.
-- **data/labeled_dataset/** contains manually labeled images used for training.
-- **results/** contains visual outputs including model predictions and evaluation results.
+- `code/` contains the main Google Colab pipeline used for preprocessing, training, and evaluation.
+- `data/raw/` contains the exported GeoTIFF satellite image.
+- `data/tiles/` contains the generated image tiles extracted from the satellite image.
+- `data/labeled_dataset/` contains manually labeled images used for training.
+- `results/` contains visual outputs including model predictions and evaluation results.
+
 
 Accessed via:
 
