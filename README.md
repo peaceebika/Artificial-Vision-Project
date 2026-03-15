@@ -214,7 +214,7 @@ Future work will focus on applying advanced machine learning and deep learning t
 Accessed via:
 
 Google Earth Engine  
-https://earthengine.google.com/
+[View the Earth Engine Code](https://code.earthengine.google.com/ed452eed789f12fa058f102ea639b09e?noload=1)
 
 ---
 
