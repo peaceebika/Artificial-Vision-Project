@@ -226,7 +226,8 @@ ChatGPT (OpenAI) was used as a programming assistant to help explain certain cod
 
 # Conclusion
 
-This project successfully demonstrates the initial stage of a satellite image computer vision pipeline. By integrating remote sensing data acquisition with Python-based image processing, the project converts large satellite images into a structured dataset of smaller samples suitable for machine learning applications. The results provide a strong foundation for future work involving automated analysis of satellite imagery using artificial intelligence techniques.
+This project successfully demonstrates the initial stage of a satellite image computer vision pipeline. By integrating remote sensing data acquisition with Python-based image processing, the project converts large Sentinel-2 satellite images into a structured dataset of smaller image tiles suitable for machine learning applications. The developed preprocessing workflow enables efficient preparation of satellite imagery for computer vision tasks and establishes a solid foundation for future work involving automated analysis of satellite imagery using machine learning and deep learning techniques.
+
 
 # References
 
