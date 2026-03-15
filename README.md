@@ -187,17 +187,16 @@ Future work will focus on applying machine learning algorithms to the generated 
 
 # Code and Material Attribution
 
-Satellite data used in this project originates from:
-
-Sentinel-2 Mission  
-European Space Agency (ESA)
+- **code/** contains the main Google Colab pipeline used for preprocessing, training, and evaluation.
+- **data/raw/** contains the exported GeoTIFF satellite image.
+- **data/tiles/** contains the generated image tiles extracted from the satellite image.
+- **data/labeled_dataset/** contains manually labeled images used for training.
+- **results/** contains visual outputs including model predictions and evaluation results.
 
 Accessed via:
 
 Google Earth Engine  
 https://earthengine.google.com/
-
-The Python libraries used in this repository are open-source and widely used in the scientific computing community.
 
 ---
 
