@@ -175,17 +175,18 @@ satellite-image-preprocessing
 
 # Preliminary Results
 
-The preprocessing pipeline successfully generated a dataset of image tiles derived from the Sentinel-2 satellite scene. Each tile represents a smaller spatial portion of the original satellite image and can serve as an input sample for machine learning algorithms.
+The preprocessing pipeline successfully generated a dataset of **2809 image tiles** derived from the Sentinel-2 satellite scene. Each tile represents a smaller spatial portion of the original satellite image and can serve as an input sample for machine learning algorithms. Each generated tile has a spatial resolution of **256 × 256 pixels**.
 
 To verify the quality of the dataset, several randomly selected tiles were visualized. These samples confirm that the tiling process correctly preserved the spatial patterns present in the original satellite imagery.
 
-The generated dataset is suitable for future tasks such as:
+The generated dataset is suitable for future computer vision and machine learning tasks such as:
 
-- Land cover classification  
-- Environmental monitoring  
-- Water resource detection  
-- Agricultural pattern analysis  
-- Urban development detection  
+- Land cover classification
+- Environmental monitoring
+- Water resource detection
+- Agricultural pattern analysis
+- Urban development detection
+ Urban development detection  
 
 ---
 
