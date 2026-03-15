@@ -14,15 +14,14 @@ This repository contains the preliminary results for a computer vision pipeline 
 
 # Problem Description
 
-Satellite imagery provides a powerful source of information for analyzing environmental conditions, urban development, agricultural patterns, and water resources. However, raw satellite data is typically stored in large geospatial raster formats that are not directly suitable for machine learning models. In computer vision tasks, images must often be converted into smaller standardized samples before they can be used for training algorithms such as Convolutional Neural Networks (CNNs) or classical machine learning models.
-
-The goal of this activity is therefore to build a preprocessing pipeline that acquires satellite imagery, converts it into a manageable format, visualizes its spectral bands, and splits the image into smaller tiles suitable for downstream computer vision tasks.
+Satellite imagery provides a powerful source of information for analyzing environmental conditions, urban development, agricultural patterns, and water resources. However, raw satellite data is typically stored in large geospatial raster formats that are not directly suitable for machine learning models. In computer vision tasks, these images must be converted into smaller standardized samples before they can be used for training algorithms such as Convolutional Neural Networks (CNNs) or classical machine learning models. The goal of this activity is therefore to build a preprocessing pipeline that acquires satellite imagery, converts it into a manageable format, visualizes its spectral bands, and splits the image into smaller tiles suitable for downstream computer vision tasks.
 
 ---
 
 # Solution Overview
 
-The solution implements a preprocessing pipeline that acquires Sentinel-2 satellite imagery using Google Earth Engine and exports the scene as a GeoTIFF file. The image is then processed in Python where RGB bands are visualized and the large raster image is split into 256×256 tiles to generate a dataset suitable for machine learning.
+The solution implements a preprocessing pipeline that acquires Sentinel-2 satellite imagery using Google Earth Engine and exports the scene as a GeoTIFF file. The raster image is processed in Python where RGB bands are visualized and the large satellite image is divided into 256×256 tiles to generate a dataset suitable for machine learning and computer vision models.
+
 
 ---
 
