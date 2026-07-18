@@ -167,7 +167,10 @@ satellite-image-preprocessing
 │   ├── confusion matrix
 │   ├── prediction_true
 │   └──training accuracy
-    
+│
+│
+└──
+ 
 ```
 
 
