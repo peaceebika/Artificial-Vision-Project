@@ -1,4 +1,5 @@
 ---
+# Artificial Vision 
 title: "Satellite Image Preprocessing Pipeline for Computer Vision"
 name: "Peace Chinemere Ebika"
 course: Computer Vision
